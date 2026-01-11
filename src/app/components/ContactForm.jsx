@@ -82,10 +82,22 @@ export default function Contact() {
               </button>
             </motion.div>
 
+            <motion.a
+              href="https://discord.gg/rPu6VZBSTP"
+              target="_blank"
+              rel="noopener noreferrer"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 1.6, duration: 1 }}
+              className="px-[2.5rem] py-[0.7rem] text-white font-aldrich tracking-[0.3rem] bg-gradient-to-r from-purple-600 to-purple-800 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-400 transition-all duration-300 ease-in-out hover:from-purple-700 hover:to-purple-900 hover:ring-2 hover:ring-purple-400 hover:shadow-xl hover:scale-105 neon"
+            >
+              REJOINDRE MON SERVEUR
+            </motion.a>
+
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 1.6, duration: 1 }}
+              transition={{ delay: 1.9, duration: 1 }}
               className="text-white text-opacity-60 font-aldrich text-center text-sm mt-4 tracking-wide"
             >
               gleam-pro@proton.me
