@@ -1,17 +1,13 @@
 "use client";
-import Image from "next/image";
 import { motion } from "framer-motion";
 import { projects } from "../../../../public/Data/projects";
 import { SparklesCore } from "../../components/UI/Sparkles";
-import { useState } from "react";
 import Link from "next/link";
 
 export default function ProjectDetails({ params }) {
   const project = projects.find(
     (project) => String(project.slug) === String(params.slug)
   );
-
-  const [mainImage, setMainImage] = useState(project.image[0]);
 
   const descriptionParagraphs = project.description
     .split("\n")
@@ -56,29 +52,13 @@ export default function ProjectDetails({ params }) {
 
               <div className=" flex flex-col justify-center gap-2 px-8 sm:px-0">
                 <div>
-                  <Image
-                    src={mainImage}
+                  <video
+                    src={project.link}
                     width={1000}
                     height={1000}
-                    alt={project.name}
+                    controls
                     className="object-cover rounded-xl"
                   />
-                </div>
-
-                <div className="w-16 h-12 md:w-40 md:h-20 flex gap-2">
-                  {project.image.map((img, idx) => (
-                    <Image
-                      key={idx}
-                      src={img}
-                      width={400}
-                      height={400}
-                      alt={`${project.name} ${idx + 1}`}
-                      className={`object-cover rounded-xl cursor-pointer opacity-50 ${
-                        mainImage === img ? "opacity-100" : ""
-                      }`}
-                      onClick={() => setMainImage(img)}
-                    />
-                  ))}
                 </div>
               </div>
               <div className="px-8 sm:px-0 max-w-[1000px] flex flex-wrap justify-center w-full gap-2 sm:gap-8">
