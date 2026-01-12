@@ -4,7 +4,7 @@ export const projects = [
     slug: "sweps_hisoka",
     title: "SWEPS - Hisoka [HXH]",
     techno: ["Glua"],
-    descriptionCard: "Techniques inspirées du personnage Hisoka (hunter x hunter)",
+    descriptionCard: "Techniques inspirées du personnage Hisoka (hunter x hunter) ",
     description: "",
     link: "https://cdn.discordapp.com/attachments/734751082487480320/1460204682906566689/ITG_-_HISOKA_1.mp4?ex=69661115&is=6964bf95&hm=059f5db206f333990e077673ad3f029196cad9c6a78237530636b11ff65d9234&",
     image: ["/image/cover/miniature.png"],
