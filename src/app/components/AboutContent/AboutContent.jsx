@@ -31,13 +31,14 @@ export default function AboutContent() {
       <div className={styles.container__infosMore}>
         <article className={styles.description}>
           <p>
-            Mon pseudo est Jin Purple (jin_purple sur discord). Je suis développeur glua & web en freelance depuis quelques années.
-            J'ai commencé par le web & le mobile, puis je me suis dirigé en parallèle vers le développement glua pour Garry's Mod.
+            Je m'appelle Lenny, et je suis animé par le développement, le design digital, la danse & lm'écriture. La fusion de toutes ces compétences m'est utile dans chacun des projets que j'entreprends. Ma soif dm'apprendre est inépuisable, et je suis constamment à la recherche de nouvelles idées et de dm'inspiration pour enrichir mon travail. Mon engagement dans ces domaines me permet d'explorer et de fusionner harmonieusement les mondes du développement et de la création artistique.
           </p>
         </article>
         <div className={styles.skills}>
-          <p>Sweps & Systèmes de combats</p>
-          <p>Systèmes / Scripts</p>
+          <p>NodeJs & MySQL | MongoDb/Prisma</p>
+          <p>Next.js (ReactJs) | Redux/Zustand</p>
+          <p>C# .NET | AVALONIA.UI</p>
+          <p>Lua/C++ & Discord.js | Glua/Unity</p>
           <p>Figma (Design & Interfaces Utilisateur)</p>
         </div>
       </div>

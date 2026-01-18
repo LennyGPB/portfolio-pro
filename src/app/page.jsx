@@ -2,7 +2,7 @@ import { Home } from "./components/Home/Home";
 
 export const metadata = {
   title: "Home | Portfolio",
-  description: "Portfolio de Jessy Pinto Barreto",
+  description: "Portfolio de Lenny Gomes Pinto Barreto",
 };
 
 export default function HomePage() {

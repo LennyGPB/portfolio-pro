@@ -29,9 +29,9 @@ export default function Presentation() {
           animate={{ x: "40%" }}
           transition={{ ease: "linear", duration: 35, repeat: Infinity }}
         >
-          PURPLE JIN{" "}
-          <span className={styles.titleName}>PURPLE JIN</span> JIN {" "}
-          <span className={styles.titleName}>PURPLE JIN</span> PURPLE
+          GOMES LENNY{" "}
+          <span className={styles.titleName}>GOMES LENNY</span> GOMES LENNY {" "}
+          <span className={styles.titleName}>GOMES LENNY</span> GOMES LENNY
         </motion.h2>
       </div>
       <div className={styles.container__title2}>
@@ -41,8 +41,8 @@ export default function Presentation() {
           transition={{ ease: "linear", duration: 35, repeat: Infinity }}
           className={styles.otherTitle}
         >
-          GLUA DEVELOPER <span className={styles.titleName}>||</span>{" "}
-          DEVELOPPEUR GLUA <span className={styles.titleName}>||</span> WEB
+          WEB DEVELOPER <span className={styles.titleName}>DANCER</span>{" "}
+          DEVELOPPEUR WEB <span className={styles.titleName}>Danseur</span> WEB
           DEVELOPER
         </motion.h2>
       </div>
@@ -55,7 +55,7 @@ export default function Presentation() {
           la contemplent... <br />{" "}
         </p>
         <p className={styles.name}>
-          Jin Purple — GLUA & WEB Developer 
+          Lenny GOMES  — Web & Game Developer || Dancer
         </p>
         <div className={styles.container__socials}>
           {/* <Link
